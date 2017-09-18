@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Modernize</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="./normalize.css">
+            <link rel="stylesheet" type="text/css" href="./style.css">
+            <link href="https://fonts.googleapis.com/css?family=Catamaran|Roboto:500|Source+Sans+Pro" rel="stylesheet">
+        </head>
+
+        <body>
+
+            <main id="main-container">
+            
+                <!-- container with form and form header -->
+                <section id="form-container">
+                    <section id="form-header">
+                        <p>Enter to win a 3rd generation Nest Learning Thermostat worth $249.</p>
+                    </section>
+                    <section id="form">
+                        <form>
+                            <div>
+                                <label for="name"></label>
+                                <input type="text" id="name"  class="input-box" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div>
+                                <label for="phone"></label>
+                                <input type="number" id="phone"  class="input-box" name="phone" placeholder="Phone Number" required>
+                            </div>
+                            <div>
+                                <label for="email"></label>
+                                <input type="email" id="email"  class="input-box" name="email" placeholder="Email Address" required>
+                            </div>
+                            <div class="button">
+                                <button type="submit">ENTER TO WIN</button>
+                            </div>
+                        </form>
+                    </section>
+                </section>
+                
+                <!-- find more savings box -->
+                <fieldset>
+                    <!-- container to input text from jQuery -->
+                    <legend class="ad-container-header"></legend>
+                    <section id="ad">
+                        <p class="ad-header">ADVERTORIAL</p>
+                        <p class="ad-title">Tricks Homeowners Use to Eliminate Bills</p>
+                        <p class="ad-content">Surging energy bills, unpredictale weather patterns and dissatisfaction with utility companies have homeowners scrambling... <a href="#">READ MORE</a></p>
+                    </section>
+                </fieldset>
+
+                <!-- modal, hidden until form is submitted -->
+                <section id="modal">
+                   <h1>Thank you for entering!</h1> 
+                   <!-- potential button returning user to somewhere on Modernize's site -->
+                </section>
+                
+            </main>
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+            <script type="text/javascript" src="./app.js"></script>     
+        </body>
+</html>
