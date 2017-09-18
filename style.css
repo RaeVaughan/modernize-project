@@ -130,7 +130,7 @@ fieldset {
 
 #modal {
 	z-index: 1;
-	/*display: none;*/
+	display: none;
 	text-align: center;
 	width: 45%;
 	margin-top: -880px;
